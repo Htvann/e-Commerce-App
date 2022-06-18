@@ -5,7 +5,7 @@ class Navbar extends Component {
         return (
             <>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-style">
-                    <a className="navbar-brand color-font" href="#">Logo</a>
+                    <a className="navbar-brand color-font" href="#">Shopping</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
