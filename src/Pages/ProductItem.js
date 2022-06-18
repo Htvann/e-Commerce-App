@@ -17,6 +17,8 @@ class ProductItem extends Component {
                         </div>
                         <div>${this.state.product.price}</div>
                     </div>
+                    <div className="card-footer text-right">{this.props.children}</div>
+                    {/*<button className="btn btn-primary">Buy now</button>*/}
                 </div>
             </div>
         );

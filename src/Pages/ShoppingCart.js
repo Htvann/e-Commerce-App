@@ -24,7 +24,11 @@ class ShoppingCart extends Component {
                     {
                         products && products.length > 0 && products.map((prod) => {
                             return (
-                                <ProductItem key={prod.id} product={prod}/>
+                                <>
+                                    <ProductItem key={prod.id} product={prod}>
+                                       <button className="btn btn-primary">Buy now</button>
+                                    </ProductItem>
+                                </>
                             );
                         })
                     }
